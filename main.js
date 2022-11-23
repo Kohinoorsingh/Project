@@ -1,0 +1,9 @@
+quick_draw_data_set=["apple","ball","cat","dog","fish","human","aeroplane"];
+random_no = Math.floor((Math.round()*quick_draw_data_set.length)+1);
+element = quick_draw_data_set[random_no];
+document.getElementById("skitch_to_draw").innerHTML = element;
+timer_counter = 0;
+time_checker = "";
+drawn_sketch = "";
+answer_holder = "";
+score = 0;
